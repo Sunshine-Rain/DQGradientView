@@ -1,0 +1,6 @@
+framework module DQGradientView {
+  umbrella header "DQGradientView-umbrella.h"
+
+  export *
+  module * { export * }
+}

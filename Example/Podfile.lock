@@ -1,0 +1,16 @@
+PODS:
+  - DQGradientView (0.1.0)
+
+DEPENDENCIES:
+  - DQGradientView (from `../`)
+
+EXTERNAL SOURCES:
+  DQGradientView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DQGradientView: 07cc5a7d9c8b3e3198c95ede9848a7390b4f02c6
+
+PODFILE CHECKSUM: d6c10e96ede07e3b90f34884da077808aed8cee9
+
+COCOAPODS: 1.9.3
