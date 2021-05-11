@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'DQGradientView_Example' do
+  pod 'DQGradientView', :path => '../'
+
+  target 'DQGradientView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
