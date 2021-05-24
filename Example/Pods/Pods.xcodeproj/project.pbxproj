@@ -7,32 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05FCA7495C06341456E1F52073133642 /* Pods-DQGradientView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A0FF28F2C3F60272592A8554D7B94C /* Pods-DQGradientView_Tests-dummy.m */; };
-		0A1A4DCC71E8B8CBD5DAA07866597C1D /* Pods-DQGradientView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF9BACE58DCAC8BE34B2CCA667336614 /* Pods-DQGradientView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		14EFF0BF990B6F7AC83EF8105EC97562 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		4F6A1D7FAA663F4ACDB8A3BDAE3A64C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		5C561963971A4306B6795376C4AF6A0D /* Pods-DQGradientView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93283721769B2B7BE369F39E90B2786A /* Pods-DQGradientView_Example-dummy.m */; };
+		26A650959BD20141965756DC23D74F29 /* Pods-DQGradientView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A0FF28F2C3F60272592A8554D7B94C /* Pods-DQGradientView_Tests-dummy.m */; };
+		7AC22667343102D598317DB22212E0EB /* Pods-DQGradientView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93283721769B2B7BE369F39E90B2786A /* Pods-DQGradientView_Example-dummy.m */; };
+		813EC964FCD25AF2C49B228065FD31FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8B86557E2420C0CF848037A57826923B /* Pods-DQGradientView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF9BACE58DCAC8BE34B2CCA667336614 /* Pods-DQGradientView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB6785352B030D6FED840F6FF79443C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B48B803999730DB0112612DDCA2AF978 /* Pods-DQGradientView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E45492909D03BF8B02AC08F25CBFB3E9 /* Pods-DQGradientView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B774262B7986AE61C067F4FEDDF23186 /* DQGradientView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF635E32BCC8397B1047336F3FBEC677 /* DQGradientView-dummy.m */; };
 		B868E41482F2B9532B44F492D13DFB51 /* DQGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A956E67E2E608A45E2542963D8686E7 /* DQGradientView.swift */; };
 		C536CECA16D0D98B49C2EBA0D4427F7E /* DQGradientView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B3B177082A1ADE19935896160B943E7 /* DQGradientView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C721FB427BACF39F6505DE0D99D90DD8 /* Pods-DQGradientView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E45492909D03BF8B02AC08F25CBFB3E9 /* Pods-DQGradientView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2172DAF79E914FDB72F14A7A703FD8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D5D0F7672DDF199EEB073AA45238EA34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		020C950317BBEA445431FF0A2900F206 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 59B563F6A770D53E91147C67DE5ED16A;
-			remoteInfo = DQGradientView;
-		};
-		0E6BE4A2FEA1D2B9ED294B1E3F8FBBF3 /* PBXContainerItemProxy */ = {
+		6253FEFC46ADEA68235C47B368D1B0A2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D768393DB237A025B188D8C0BCE3D1D5;
 			remoteInfo = "Pods-DQGradientView_Example";
+		};
+		8C5A1883039D1EFDF0CAB378AE086C4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59B563F6A770D53E91147C67DE5ED16A;
+			remoteInfo = DQGradientView;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -41,7 +41,6 @@
 		106DDDD18DB2A1404359C150F62A1163 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		1A956E67E2E608A45E2542963D8686E7 /* DQGradientView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DQGradientView.swift; path = DQGradientView/Classes/DQGradientView.swift; sourceTree = "<group>"; };
 		2A59D5DEE91135A08A83A013DA2BD9A6 /* DQGradientView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DQGradientView.release.xcconfig; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3CCE85A2EC55F9828A3AA20FC9B99E40 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		43F05A42556D577D17EDD37239808D8A /* Pods-DQGradientView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DQGradientView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		48A0FF28F2C3F60272592A8554D7B94C /* Pods-DQGradientView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DQGradientView_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -53,6 +52,7 @@
 		66C5A523A772DD8E03A2D30042AE512D /* Pods-DQGradientView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DQGradientView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		66E0B75E489FBB2163AD06085DBA38A0 /* Pods-DQGradientView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DQGradientView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6F3C8E4584B0E13EDB2D80E4A1289612 /* DQGradientView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DQGradientView-prefix.pch"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		74D24BC2CD1AD48A52963D7401677D4E /* Pods-DQGradientView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DQGradientView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		7A658985F6AF189D9CF9A2F7123245C8 /* Pods_DQGradientView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DQGradientView_Tests.framework; path = "Pods-DQGradientView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		928D96CF476AE70C4CBF4066F1CD5C35 /* DQGradientView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DQGradientView-Info.plist"; sourceTree = "<group>"; };
@@ -73,19 +73,19 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		11B4CBF57604C001164A77BF806CA0CC /* Frameworks */ = {
+		56B92327E869E34D4F356A529A8CDA03 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F6A1D7FAA663F4ACDB8A3BDAE3A64C8 /* Foundation.framework in Frameworks */,
+				D5D0F7672DDF199EEB073AA45238EA34 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7EE15CA5F4D9EC180499B08BC589547E /* Frameworks */ = {
+		8CA4E1AAE614A677B622DBF50672BFD1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14EFF0BF990B6F7AC83EF8105EC97562 /* Foundation.framework in Frameworks */,
+				AB6785352B030D6FED840F6FF79443C7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,7 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2172DAF79E914FDB72F14A7A703FD8A /* Foundation.framework in Frameworks */,
+				813EC964FCD25AF2C49B228065FD31FD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,6 +134,14 @@
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/DQGradientView";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		601A4FC77D1983A223633A19B0787496 /* Pods-DQGradientView_Example */ = {
@@ -186,14 +194,6 @@
 			path = "Target Support Files/Pods-DQGradientView_Tests";
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
@@ -208,7 +208,7 @@
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -226,19 +226,19 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		025922E46E8BBF97DFE864F0D06F91FB /* Headers */ = {
+		1817FBD3FB69F23B3BA11E582EC4C3AA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C721FB427BACF39F6505DE0D99D90DD8 /* Pods-DQGradientView_Tests-umbrella.h in Headers */,
+				B48B803999730DB0112612DDCA2AF978 /* Pods-DQGradientView_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6480EDB33DC254AD8D6915829DDDC8C7 /* Headers */ = {
+		6D7FD74D4C475C7C8F5856DF738FD948 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A1A4DCC71E8B8CBD5DAA07866597C1D /* Pods-DQGradientView_Example-umbrella.h in Headers */,
+				8B86557E2420C0CF848037A57826923B /* Pods-DQGradientView_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,17 +273,17 @@
 		};
 		A589473F6EC168AA4DEB2CD7888F534F /* Pods-DQGradientView_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4241A5C2CE4F7003859707D2968D90F3 /* Build configuration list for PBXNativeTarget "Pods-DQGradientView_Tests" */;
+			buildConfigurationList = 19EB2092CD9A56D259844078CF8C7D24 /* Build configuration list for PBXNativeTarget "Pods-DQGradientView_Tests" */;
 			buildPhases = (
-				025922E46E8BBF97DFE864F0D06F91FB /* Headers */,
-				1A80677103F6B44727F8C070B87D034C /* Sources */,
-				7EE15CA5F4D9EC180499B08BC589547E /* Frameworks */,
-				BD758EB9A290D0BDDA201A88CBFE7FA9 /* Resources */,
+				1817FBD3FB69F23B3BA11E582EC4C3AA /* Headers */,
+				A3AA290753BF3F11D4E5E7039204867B /* Sources */,
+				56B92327E869E34D4F356A529A8CDA03 /* Frameworks */,
+				AF692DC24086FF8140F162893FCE94B4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				27090F0B472F7AF578E0B83409B72F51 /* PBXTargetDependency */,
+				58D64276180D56474521D8BC5480C532 /* PBXTargetDependency */,
 			);
 			name = "Pods-DQGradientView_Tests";
 			productName = "Pods-DQGradientView_Tests";
@@ -292,17 +292,17 @@
 		};
 		D768393DB237A025B188D8C0BCE3D1D5 /* Pods-DQGradientView_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ED08B3E266084F0BD9EC251DD39B09FF /* Build configuration list for PBXNativeTarget "Pods-DQGradientView_Example" */;
+			buildConfigurationList = 07B2AA67BF5CE2B084C869059A0308C2 /* Build configuration list for PBXNativeTarget "Pods-DQGradientView_Example" */;
 			buildPhases = (
-				6480EDB33DC254AD8D6915829DDDC8C7 /* Headers */,
-				20FA1690AA84D80D3AA7DA7F4159E4AE /* Sources */,
-				11B4CBF57604C001164A77BF806CA0CC /* Frameworks */,
-				A0713B2E10DB7D5A13DF77A953CAF95B /* Resources */,
+				6D7FD74D4C475C7C8F5856DF738FD948 /* Headers */,
+				3B63825B65D532767F3DFF56DD6CE898 /* Sources */,
+				8CA4E1AAE614A677B622DBF50672BFD1 /* Frameworks */,
+				4BC4DC4A4C2DC072CBA7877BDB3D39D4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9C6C14EE794ADB8017EE611EE5F7B53B /* PBXTargetDependency */,
+				D319D3C0D4555411E844485924CA3E52 /* PBXTargetDependency */,
 			);
 			name = "Pods-DQGradientView_Example";
 			productName = "Pods-DQGradientView_Example";
@@ -346,14 +346,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A0713B2E10DB7D5A13DF77A953CAF95B /* Resources */ = {
+		4BC4DC4A4C2DC072CBA7877BDB3D39D4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BD758EB9A290D0BDDA201A88CBFE7FA9 /* Resources */ = {
+		AF692DC24086FF8140F162893FCE94B4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -363,14 +363,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1A80677103F6B44727F8C070B87D034C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				05FCA7495C06341456E1F52073133642 /* Pods-DQGradientView_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		1CB071433E930FF40B6F61DFE4AA5084 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -380,105 +372,45 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		20FA1690AA84D80D3AA7DA7F4159E4AE /* Sources */ = {
+		3B63825B65D532767F3DFF56DD6CE898 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C561963971A4306B6795376C4AF6A0D /* Pods-DQGradientView_Example-dummy.m in Sources */,
+				7AC22667343102D598317DB22212E0EB /* Pods-DQGradientView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3AA290753BF3F11D4E5E7039204867B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26A650959BD20141965756DC23D74F29 /* Pods-DQGradientView_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		27090F0B472F7AF578E0B83409B72F51 /* PBXTargetDependency */ = {
+		58D64276180D56474521D8BC5480C532 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-DQGradientView_Example";
 			target = D768393DB237A025B188D8C0BCE3D1D5 /* Pods-DQGradientView_Example */;
-			targetProxy = 0E6BE4A2FEA1D2B9ED294B1E3F8FBBF3 /* PBXContainerItemProxy */;
+			targetProxy = 6253FEFC46ADEA68235C47B368D1B0A2 /* PBXContainerItemProxy */;
 		};
-		9C6C14EE794ADB8017EE611EE5F7B53B /* PBXTargetDependency */ = {
+		D319D3C0D4555411E844485924CA3E52 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DQGradientView;
 			target = 59B563F6A770D53E91147C67DE5ED16A /* DQGradientView */;
-			targetProxy = 020C950317BBEA445431FF0A2900F206 /* PBXContainerItemProxy */;
+			targetProxy = 8C5A1883039D1EFDF0CAB378AE086C4B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0AD694F603A29D599D3650FC3F8BFF66 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 66C5A523A772DD8E03A2D30042AE512D /* Pods-DQGradientView_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-DQGradientView_Tests/Pods-DQGradientView_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DQGradientView_Tests/Pods-DQGradientView_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		0F8D09C28865B229AFDCF8638F5A5D59 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2A59D5DEE91135A08A83A013DA2BD9A6 /* DQGradientView.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DQGradientView/DQGradientView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DQGradientView/DQGradientView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DQGradientView/DQGradientView.modulemap";
-				PRODUCT_MODULE_NAME = DQGradientView;
-				PRODUCT_NAME = DQGradientView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		131356BE54884448CA49C07BEDF4BB2A /* Debug */ = {
+		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -501,6 +433,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -539,117 +472,13 @@
 			};
 			name = Debug;
 		};
-		229642E3241D66A6B75151CACE26E5C0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B3F1503F792B87FD44666DDF5DA0D0A0 /* DQGradientView.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DQGradientView/DQGradientView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DQGradientView/DQGradientView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DQGradientView/DQGradientView.modulemap";
-				PRODUCT_MODULE_NAME = DQGradientView;
-				PRODUCT_NAME = DQGradientView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		6D7EDF2436032941BE639E2069EF569F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E0C9D15F64D805EBFA0BEEDFFFC23089 /* Pods-DQGradientView_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-DQGradientView_Example/Pods-DQGradientView_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DQGradientView_Example/Pods-DQGradientView_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		984CE5BFE38C00081278C242C79A9C7B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 43F05A42556D577D17EDD37239808D8A /* Pods-DQGradientView_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-DQGradientView_Example/Pods-DQGradientView_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DQGradientView_Example/Pods-DQGradientView_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E7C02408C2625978B9ADFCE290F4E205 /* Debug */ = {
+		2C074C716AE5C0A047E973EB36711398 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 74D24BC2CD1AD48A52963D7401677D4E /* Pods-DQGradientView_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -677,10 +506,44 @@
 			};
 			name = Debug;
 		};
-		F090CD07A80273D5A73C8EA19224ADDB /* Release */ = {
+		41750A7561A1FA8D1609B2D0CAF980AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A59D5DEE91135A08A83A013DA2BD9A6 /* DQGradientView.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DQGradientView/DQGradientView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DQGradientView/DQGradientView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DQGradientView/DQGradientView.modulemap";
+				PRODUCT_MODULE_NAME = DQGradientView;
+				PRODUCT_NAME = DQGradientView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.4;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -703,6 +566,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -737,14 +601,159 @@
 			};
 			name = Release;
 		};
+		7338B0BC77D7911C32A80FFAE67E653E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0C9D15F64D805EBFA0BEEDFFFC23089 /* Pods-DQGradientView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DQGradientView_Example/Pods-DQGradientView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DQGradientView_Example/Pods-DQGradientView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		763307DEA14F674F03A2615D2372EA3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3F1503F792B87FD44666DDF5DA0D0A0 /* DQGradientView.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DQGradientView/DQGradientView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DQGradientView/DQGradientView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DQGradientView/DQGradientView.modulemap";
+				PRODUCT_MODULE_NAME = DQGradientView;
+				PRODUCT_NAME = DQGradientView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.4;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A14573A558BC6872F7F84B2105AEF3C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66C5A523A772DD8E03A2D30042AE512D /* Pods-DQGradientView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DQGradientView_Tests/Pods-DQGradientView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DQGradientView_Tests/Pods-DQGradientView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A65E7F9F80F500917D37F21BCD79F72B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43F05A42556D577D17EDD37239808D8A /* Pods-DQGradientView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DQGradientView_Example/Pods-DQGradientView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DQGradientView_Example/Pods-DQGradientView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4241A5C2CE4F7003859707D2968D90F3 /* Build configuration list for PBXNativeTarget "Pods-DQGradientView_Tests" */ = {
+		07B2AA67BF5CE2B084C869059A0308C2 /* Build configuration list for PBXNativeTarget "Pods-DQGradientView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E7C02408C2625978B9ADFCE290F4E205 /* Debug */,
-				0AD694F603A29D599D3650FC3F8BFF66 /* Release */,
+				7338B0BC77D7911C32A80FFAE67E653E /* Debug */,
+				A65E7F9F80F500917D37F21BCD79F72B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19EB2092CD9A56D259844078CF8C7D24 /* Build configuration list for PBXNativeTarget "Pods-DQGradientView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C074C716AE5C0A047E973EB36711398 /* Debug */,
+				A14573A558BC6872F7F84B2105AEF3C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -752,8 +761,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				131356BE54884448CA49C07BEDF4BB2A /* Debug */,
-				F090CD07A80273D5A73C8EA19224ADDB /* Release */,
+				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
+				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -761,17 +770,8 @@
 		5AE3E36AA2F2ED1BC2D1504DA838598A /* Build configuration list for PBXNativeTarget "DQGradientView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				229642E3241D66A6B75151CACE26E5C0 /* Debug */,
-				0F8D09C28865B229AFDCF8638F5A5D59 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		ED08B3E266084F0BD9EC251DD39B09FF /* Build configuration list for PBXNativeTarget "Pods-DQGradientView_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6D7EDF2436032941BE639E2069EF569F /* Debug */,
-				984CE5BFE38C00081278C242C79A9C7B /* Release */,
+				763307DEA14F674F03A2615D2372EA3D /* Debug */,
+				41750A7561A1FA8D1609B2D0CAF980AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

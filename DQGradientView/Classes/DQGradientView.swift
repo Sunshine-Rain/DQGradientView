@@ -10,19 +10,26 @@ import CoreGraphics
 
 @IBDesignable
 open class DQGradientView: UIView {
+    public enum GradientType: CAGradientLayerType.RawValue {
+        case axial = "axial"
+        case radial = "radial"
+        case conic = "conic"
+    }
     
     open var gradientLayer: CAGradientLayer = CAGradientLayer()
     
-    open var type: CAGradientLayerType = .axial {
+    open var type: DQGradientView.GradientType = .axial {
         didSet {
-            gradientLayer.type = type
+            gradientLayer.type = CAGradientLayerType(rawValue: type.rawValue)
             layoutGradientLayer()
         }
     }
     
     @IBInspectable open var typeRawValue: String = CAGradientLayerType.axial.rawValue {
         didSet {
-            type = CAGradientLayerType(rawValue: typeRawValue)
+            if let t = GradientType(rawValue: typeRawValue) {
+                type = t
+            }
         }
     }
     
@@ -81,35 +88,33 @@ open class DQGradientView: UIView {
         
     }
     
-    init(_ frame: CGRect, type: CAGradientLayerType, colors: [CGColor], locations: [NSNumber]? = nil) {
+    init(_ frame: CGRect, type: DQGradientView.GradientType, colors: [CGColor], locations: [NSNumber]? = nil) {
         self.type = type
         self.locations = locations
         self.colors = colors
         
         super.init(frame: frame)
-        setupLayer()
     }
     
     public override init(frame: CGRect) {
         super.init(frame: frame)
-        setupLayer()
     }
     
     required public init?(coder: NSCoder) {
         super.init(coder: coder)
-        setupLayer()
     }
     
     private func setupLayer() {
         gradientLayer.bounds = self.bounds
-        gradientLayer.type = type
+        gradientLayer.type = CAGradientLayerType(rawValue: type.rawValue)
         gradientLayer.startPoint = startPoint
         gradientLayer.endPoint = endPoint
-        gradientLayer.colors = colors
+        gradientLayer.colors = colors.count < 2 ? [startColor.cgColor, endColor.cgColor] : colors
         gradientLayer.anchorPoint = CGPoint(x: 0, y: 0)
         if gradientLayer.superlayer == nil {
             layer.addSublayer(gradientLayer)
         }
+        gradientLayer.layoutIfNeeded()
     }
     
     private func layoutGradientLayer() {

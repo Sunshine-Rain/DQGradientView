@@ -7,12 +7,19 @@
 //
 
 import UIKit
+import DQGradientView
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var radialView: DQGradientView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        radialView.layer.masksToBounds = true
+        radialView.layer.cornerRadius = 90.0
+        radialView.colors.insert(contentsOf: [UIColor.orange.cgColor, UIColor.yellow.cgColor], at: 1)
     }
 
     override func didReceiveMemoryWarning() {
