@@ -112,7 +112,7 @@ open class DQGradientView: UIView {
         gradientLayer.colors = colors.count < 2 ? [startColor.cgColor, endColor.cgColor] : colors
         gradientLayer.anchorPoint = CGPoint(x: 0, y: 0)
         if gradientLayer.superlayer == nil {
-            layer.addSublayer(gradientLayer)
+            layer.insertSublayer(gradientLayer, at: 0)
         }
         gradientLayer.layoutIfNeeded()
     }

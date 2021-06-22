@@ -22,7 +22,7 @@ pod 'DQGradientView'
 
 ## Author
 
-1137576021@qq.com, you@example.com
+1137576021@qq.com, quan
 
 ## License
 
