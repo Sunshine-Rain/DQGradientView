@@ -69,6 +69,12 @@ open class DQGradientView: UIView {
         }
     }
     
+    @IBInspectable open var showGradientLayer: Bool = true {
+        didSet {
+            self.setNeedsLayout()
+        }
+    }
+    
     open var locations: [NSNumber]? {
         didSet {
             gradientLayer.locations = locations
@@ -84,8 +90,7 @@ open class DQGradientView: UIView {
     
     public override func layoutSubviews() {
         super.layoutSubviews()
-        setupLayer()
-        
+        layoutGradientLayer()
     }
     
     init(_ frame: CGRect, type: DQGradientView.GradientType, colors: [CGColor], locations: [NSNumber]? = nil) {
@@ -111,14 +116,23 @@ open class DQGradientView: UIView {
         gradientLayer.endPoint = endPoint
         gradientLayer.colors = colors.count < 2 ? [startColor.cgColor, endColor.cgColor] : colors
         gradientLayer.anchorPoint = CGPoint(x: 0, y: 0)
+        if locations != nil {
+            gradientLayer.locations = locations
+        }
         if gradientLayer.superlayer == nil {
             layer.insertSublayer(gradientLayer, at: 0)
         }
+        gradientLayer.setNeedsLayout()
         gradientLayer.layoutIfNeeded()
     }
     
     private func layoutGradientLayer() {
-        gradientLayer.setNeedsLayout()
+        if showGradientLayer {
+            setupLayer()
+        }
+        else {
+            gradientLayer.removeFromSuperlayer()
+        }
     }
     
 }

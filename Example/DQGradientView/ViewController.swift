@@ -20,6 +20,14 @@ class ViewController: UIViewController {
         radialView.layer.masksToBounds = true
         radialView.layer.cornerRadius = 90.0
         radialView.colors.insert(contentsOf: [UIColor.orange.cgColor, UIColor.yellow.cgColor], at: 1)
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+            self.radialView.showGradientLayer = false
+        }
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 4) {
+            self.radialView.showGradientLayer = true
+        }
     }
 
     override func didReceiveMemoryWarning() {
